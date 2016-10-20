@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+#header{
+	size:30;
+}
+#test{
+	border:red solid thin;
+	outline-style:dotted;
+	outline-width:3px;
+}
+#boder
+	{
+	height: 60;
+	}
+label.error {
+    background:url("images/unchecked.gif") no-repeat 5px 0px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: #EA5200;
+}
+label.checked {
+    background:url("images/checked.gif") no-repeat 5px 0px;
+}
+label.error checked{
+    background:url("images/checked.gif") no-repeat 5px 0px;
+}
+.nomove{
+     position: fixed ;
+     margin-left: 40%;
+}
+div p{
+    position: fixed ;
+     margin-left: 40%;
+}
